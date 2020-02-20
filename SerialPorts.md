@@ -1,3 +1,3 @@
-Könnte helfen um Daten über SerialPorts zu senden:
+https://alexandre.alapetite.fr/doc-alex/raspberrypi-nodejs-arduino/index.en.html
 
-https://stackoverflow.com/questions/39240089/raspberry-pi-node-js-and-arduino-uno-serial-communication
+Eine Anleitung für serielle Kommunikation mit Arduino.
