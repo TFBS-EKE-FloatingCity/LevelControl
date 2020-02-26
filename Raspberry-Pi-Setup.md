@@ -7,3 +7,11 @@
 * apt instal git
 * git clone (Git Repo klonen)
 * 
+
+
+
+
+Git Zugangsdaten
+User: raspi1
+PW: twayh3ay5x3kv5i6tiwkbrsswepth7674runzbwm23odvoohpcvq
+https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
