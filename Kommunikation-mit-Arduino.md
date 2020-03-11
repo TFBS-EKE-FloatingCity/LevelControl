@@ -1,4 +1,5 @@
 http://rpc.gehennom.org/2013/09/atmega2560-as-an-spi-slave/
+https://github.com/gregd72002/AvrMiniCopter-archive/blob/master/arduino/SPIdev.h#L82
 
 
 Ultrasonic
