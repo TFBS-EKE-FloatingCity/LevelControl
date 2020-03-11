@@ -1,6 +1,4 @@
-http://rpc.gehennom.org/2013/09/atmega2560-as-an-spi-slave/
-https://github.com/gregd72002/AvrMiniCopter-archive/blob/master/arduino/SPIdev.h#L82
-
+https://www.avrfreaks.net/forum/spi-between-atmega2560-and-atmega128
 
 Ultrasonic
 Neigungssensor
