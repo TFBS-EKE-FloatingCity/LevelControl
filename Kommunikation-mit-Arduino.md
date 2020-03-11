@@ -10,6 +10,72 @@ U01
 1 Byte = Identifier -> ersten 3 Bit Type, 5 Bit Nummer (maximal 32 Geräte pro Typ)
 2 Bytes = Daten
 
+Code für den Arduino als Slave:
+```
+#define F_CPU	16000000UL //define Clockrate
+
+#include <avr/io.h>
+#include <util/delay.h>
+
+void SPI_SlaveInit(void);
+char SPI_SlaveReceive(void);
+void SPI_SlaveTransmit(char cData);
+void delay(unsigned int del);
+
+#define INPUT   0x00
+#define OUTPUT  0xFF
+
+#define DDR_SPI DDRB
+
+#define DD_SS   0
+#define DD_SCK  1
+#define DD_MOSI 2
+#define DD_MISO 3
+
+int main()
+{
+	unsigned char sData = 0x00;		// Serial Data variable
+	unsigned int i		= 0;
+	
+	DDRC  = OUTPUT;
+	PORTC = 0xFF;
+	
+	SPI_SlaveInit();
+	
+	while(1)
+	{
+		sData = SPI_SlaveReceive();
+		PORTC = sData;
+		SPI_SlaveTransmit(sData);
+	}
+}
+
+void SPI_SlaveInit(void)
+{
+	DDR_SPI = (1<<DD_MISO);		   // Set MISO output, all others input
+	SPCR = (1<<SPE);			   // Enable SPI
+}
+
+char SPI_SlaveReceive(void)
+{
+	while(!(SPSR & (1<<SPIF)));	   // Wait for reception complete
+	return SPDR;   				   // Return Data Register
+}
+
+void SPI_SlaveTransmit(char cData)
+{
+	
+	SPDR = cData;				  // Start transmission
+	while(!(SPSR & (1<<SPIF)));	  // Wait for transmission complete
+}
+```
+
+
+
+
+Als Master passiert folgendes:
+Da aber der Raspberry nicht Salve sein kann muss der Arduino der Slave sein
+
 Die Übertragung vom Arduino sieht dann folgend aus:
 ![1 Sensor übertragung.PNG](/.attachments/1%20Sensor%20übertragung-0aa4238c-de5b-4540-a13e-7ae2d773f74a.PNG)
 1 Sensor
