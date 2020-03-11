@@ -1,3 +1,6 @@
+http://rpc.gehennom.org/2013/09/atmega2560-as-an-spi-slave/
+
+
 Ultrasonic
 Neigungssensor
 Pumpen
