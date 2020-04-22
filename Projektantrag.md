@@ -2,7 +2,10 @@
 
 ### **Projektname:**
 Floating City
-Projektantrag
+<br>
+<br>
+
+## **Projektantrag**
 
 ### **Ausgangslage:**
 Vorgeschichte des Projektes, Beschreibung des IST-Zustandes und der eigentlichen Problemstellung
@@ -27,7 +30,8 @@ Raspberry PI 4, optional SQL-Server
 
 ### **Sachmittel:**
 SQL-Server. Hier konnten wir vorerst allerdings Kosten vermeiden durch den Einsatz eines SQL-Express-Servers
-
+<br>
+<br>
 ## **Projektorganisation**
 
 ### **Auftraggeber:**
