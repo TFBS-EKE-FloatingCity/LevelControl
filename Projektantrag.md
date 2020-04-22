@@ -29,7 +29,7 @@ Fertigstellung bis Lehrgangsende
 Raspberry PI 4, optional SQL-Server
 
 ### **Sachmittel:**
-SQL-Server. Hier konnten wir vorerst allerdings Kosten vermeiden durch den Einsatz eines SQL-Express-Servers
+SQL-Server. Hier konnten wir vorerst allerdings Kosten durch den Einsatz eines SQL-Express-Servers vermeiden.
 <br>
 <br>
 ## **Projektorganisation**
