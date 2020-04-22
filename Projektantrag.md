@@ -8,7 +8,7 @@ Floating City
 ## **Projektantrag**
 
 ### **Ausgangslage:**
-Vorgeschichte des Projektes, Beschreibung des IST-Zustandes und der eigentlichen Problemstellung
+Ursprünglich war geplant das ganze Projekt mit Hilfe eines Maßstabsgetreuen Projekts zu realisieren. Aufgrund der momentanen Umstände konnten wir das allerdings nicht in die Tat umsetzen und mussten uns bei den Simulationen auf selbst generierte Daten stützen.
 
 ### **Projektziele:**
 Mit diesem Projekt sollen folgende Ziele erreicht werden:
