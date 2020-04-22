@@ -17,7 +17,7 @@ Mit diesem Projekt sollen folgende Ziele erreicht werden:
 3. Userhirarchie für zukünftigen Gebrauch nach Auslieferung
 
 ### **Abgrenzungen:**
-Konfigurationr der Controller. Dies wird von den Kollegen der Elektronik-Abteilung übernommen
+Konfigurationr der Controller. Dies wird von den Kollegen der Elektronik-Abteilung übernommen, abgesehen von unserem Raspberry Pi.
 
 ### **Meilensteine:**
 Simulationsdaten erstellen, Raspberry konfigurieren, Datenbankdesign abschließen, UI inkl. Grafiken und optional 3D-Model abschließen
