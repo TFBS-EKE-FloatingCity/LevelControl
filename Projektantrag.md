@@ -8,7 +8,7 @@ Floating City
 ## **Projektantrag**
 
 ### **Ausgangslage:**
-Ursprünglich war geplant das ganze Projekt mit Hilfe eines Maßstabsgetreuen Models zu realisieren. Aufgrund der momentanen Umstände konnten wir das allerdings nicht in die Tat umsetzen und mussten uns bei den Simulationen auf selbst generierte Daten stützen.
+Ursprünglich war geplant das ganze Projekt mit Hilfe eines maßstabsgetreuen Models zu realisieren. Aufgrund der momentanen Umstände konnten wir das allerdings nicht in die Tat umsetzen und mussten uns bei den Simulationen auf selbst generierte Daten stützen.
 
 ### **Projektziele:**
 Mit diesem Projekt sollen folgende Ziele erreicht werden:
