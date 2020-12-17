@@ -17,7 +17,7 @@ Der Raspberry Pi kommuniziert über SPI im Interval von 100ms mit dem Arduino. B
 
 Der Aufbau ist dort wie folgt:
 * 1 Byte - SensorID 
-* 2 Bytes - Daten die Struktur muss je Sensor aber noch festgelegt werden - die Werte werden in der Visualisierung umgerechnet
+* 2 Bytes - Daten die Struktur muss je Sensor aber noch festgelegt werden - Die Werte werden in der Visualisierung umgerechnet.
 
 # Sensordaten: Visualisierung <=> Raspberry Pi
 
