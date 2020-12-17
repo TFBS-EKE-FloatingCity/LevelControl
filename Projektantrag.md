@@ -3,7 +3,6 @@
 ### **Projektname:**
 Floating City
 <br>
-<br>
 
 ## **Projektantrag**
 
