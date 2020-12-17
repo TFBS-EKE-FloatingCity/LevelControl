@@ -29,7 +29,7 @@ Raspberry PI 4, optional SQL-Server
 ### **Sachmittel:**
 SQL-Server. Hier konnten wir vorerst allerdings Kosten durch den Einsatz eines SQL-Express-Servers vermeiden.
 
-Raspberrry PI: 59.50€
+Raspberrry Pi: 59.50€
 <br>
 <br>
 
