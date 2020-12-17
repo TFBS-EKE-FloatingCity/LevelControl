@@ -46,7 +46,7 @@ Gert Birkner
 David Fritz, Feras Abdulazem, Johannes Köb, Kevin Kienreich, Luca Wild, Max Hiltpolt, Niklas Greiderer, Rene Rinner, Stephanie Fritz, Tristan Wedl
 
 ### **Projektausschuss:**
-Steht im Moment noch nicht fest, da wir aufgrund der momentanen Situation nicht wissen wie und wann wir unser Projekt vor einem Gremium präsentieren sollen.
+Steht im Moment noch nicht fest, da wir aufgrund der momentanen Situation (COVID) nicht wissen wie und wann wir unser Projekt vor einem Gremium präsentieren sollen.
 
 ### **Verteiler:**
 Gert Birkner
