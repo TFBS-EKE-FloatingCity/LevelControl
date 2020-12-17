@@ -34,6 +34,7 @@ SQL-Server. Hier konnten wir vorerst allerdings Kosten durch den Einsatz eines S
 Raspberrry PI: 59.50€
 <br>
 <br>
+
 ## **Projektorganisation**
 
 ### **Auftraggeber:**
