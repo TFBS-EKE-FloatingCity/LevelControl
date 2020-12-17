@@ -14,9 +14,6 @@ Mit diesem Projekt sollen folgende Ziele erreicht werden:
 2. Erstellen einer Simulation inklusive Maßstabsmodel
 3. Userhierarchie für zukünftigen Gebrauch nach Auslieferung
 
-### **Abgrenzungen:**
-Konfiguration der Controller. Dies wird von den Kollegen der Elektronik-Abteilung übernommen, abgesehen von unserem Raspberry Pi.
-
 ### **Meilensteine:**
 1. Simulationsdaten erstellen
 2. Raspberry Pi konfigurieren
