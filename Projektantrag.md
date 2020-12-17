@@ -29,7 +29,8 @@ Konfiguration der Controller. Dies wird von den Kollegen der Elektronik-Abteilun
 Fertigstellung bis Lehrgangsende
 
 ### **Vorraussichtliche Kosten:**
-Raspberry Pi 4, optional SQL-Server
+1. Raspberry Pi 4
+2. Optional SQL-Server
 
 ### **Sachmittel:**
 SQL-Server. Hier konnten wir vorerst allerdings Kosten durch den Einsatz eines SQL-Express-Servers vermeiden.
