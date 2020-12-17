@@ -43,10 +43,10 @@ Universität Innsbruck - Architektur
 Gert Birkner
 
 ### **Projektmitglieder:**
-Arne Tschuggnall, David Di Pauli, Simon Mayr, Lukas Meier, Ozan Ilmik, Robert Bitschnau, Lukas Staud
+David Fritz, Feras Abdulazem, Johannes Köb, Kevin Kienreich, Luca Wild, Max Hiltpolt, Niklas Greiderer, Rene Rinner, Stephanie Fritz, Tristan Wedl
 
 ### **Projektausschuss:**
 Steht im Moment noch nicht fest, da wir aufgrund der momentanen Situation nicht wissen wie und wann wir unser Projekt vor einem Gremium präsentieren sollen.
 
 ### **Verteiler:**
-Martin Kandler, Gert Birkner
+Gert Birkner
