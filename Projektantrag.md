@@ -3,6 +3,7 @@
 ### **Projektname:**
 Floating City
 <br>
+<br>
 
 ## **Projektantrag**
 
@@ -13,10 +14,10 @@ Ursprünglich war geplant das ganze Projekt mit Hilfe eines maßstabsgetreuen Mo
 Mit diesem Projekt sollen folgende Ziele erreicht werden:
 1. Programmieren einer Schnittstelle Raspberry/Server
 2. Erstellen einer Simulation inkl. Maßstabsmodel
-3. Userhirarchie für zukünftigen Gebrauch nach Auslieferung
+3. Userhierarchie für zukünftigen Gebrauch nach Auslieferung
 
 ### **Abgrenzungen:**
-Konfigurationr der Controller. Dies wird von den Kollegen der Elektronik-Abteilung übernommen, abgesehen von unserem Raspberry Pi.
+Konfiguration der Controller. Dies wird von den Kollegen der Elektronik-Abteilung übernommen, abgesehen von unserem Raspberry Pi.
 
 ### **Meilensteine:**
 Simulationsdaten erstellen, Raspberry konfigurieren, Datenbankdesign abschließen, UI inkl. Grafiken und optional 3D-Model abschließen. Abschließend Settings entsprechend Userwünschen anpassen und ein UserRole-Management implementieren.
