@@ -13,7 +13,7 @@ Das ganze Projekt wurde mittels eines maßstabsgetreuen Models realisiert.
 ### **Projektziele:**
 Mit diesem Projekt sollen folgende Ziele erreicht werden:
 1. Programmieren einer Schnittstelle Raspberry Pi/Server
-2. Erstellen einer Simulation inkl. Maßstabsmodel
+2. Erstellen einer Simulation inklusive Maßstabsmodel
 3. Userhierarchie für zukünftigen Gebrauch nach Auslieferung
 
 ### **Abgrenzungen:**
