@@ -10,9 +10,11 @@ Floating City
 ### **Ausgangslage:**
 Ursprünglich war geplant das ganze Projekt mit Hilfe eines maßstabsgetreuen Models zu realisieren. Aufgrund der momentanen Umstände konnten wir das allerdings nicht in die Tat umsetzen und mussten uns bei den Simulationen auf selbst generierte Daten stützen.
 
+
+
 ### **Projektziele:**
 Mit diesem Projekt sollen folgende Ziele erreicht werden:
-1. Programmieren einer Schnittstelle Raspberry/Server
+1. Programmieren einer Schnittstelle Raspberry Pi/Server
 2. Erstellen einer Simulation inkl. Maßstabsmodel
 3. Userhierarchie für zukünftigen Gebrauch nach Auslieferung
 
