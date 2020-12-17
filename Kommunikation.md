@@ -13,12 +13,6 @@ Der Raspberry Pi kommuniziert über SPI im Interval von 100ms mit dem Arduino. B
 | 2 | Sun | int (0 bis 100) |
 | 3 | Consumption Delta | int (-100 bis 100) |
 
-# Sensordaten: Arduino <=> Raspberry Pi
-
-Der Aufbau ist dort wie folgt:
-* 1 Byte - SensorID 
-* 2 Bytes - Daten die Struktur muss je Sensor aber noch festgelegt werden - Die Werte werden in der Visualisierung umgerechnet.
-
 # Sensordaten: Visualisierung <=> Raspberry Pi
 
 Die Daten werden wie folgt in einem JSON Array übertragen:
