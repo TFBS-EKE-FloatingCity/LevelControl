@@ -24,12 +24,12 @@ Simulationsdaten erstellen, Raspberry Pi konfigurieren, Datenbankdesign abschlie
 Fertigstellung bis Lehrgangsende
 
 ### **Vorraussichtliche Kosten:**
-Raspberry PI 4, optional SQL-Server
+Raspberry Pi 4, optional SQL-Server
 
 ### **Sachmittel:**
 SQL-Server. Hier konnten wir vorerst allerdings Kosten durch den Einsatz eines SQL-Express-Servers vermeiden.
 
-Raspberrry Pi: 59.50€
+Raspberrry Pi 4: 59.50€
 <br>
 <br>
 
