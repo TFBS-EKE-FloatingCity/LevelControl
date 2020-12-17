@@ -18,7 +18,12 @@ Mit diesem Projekt sollen folgende Ziele erreicht werden:
 Konfiguration der Controller. Dies wird von den Kollegen der Elektronik-Abteilung übernommen, abgesehen von unserem Raspberry Pi.
 
 ### **Meilensteine:**
-Simulationsdaten erstellen, Raspberry Pi konfigurieren, Datenbankdesign abschließen, UI inklusive Grafiken und 3D-Model abschließen. Anschließend Settings entsprechend Userwünschen anpassen und ein UserRole-Management implementieren.
+1. Simulationsdaten erstellen
+2. Raspberry Pi konfigurieren
+3. Datenbankdesign abschließen
+4. UI inklusive Grafiken und 3D-Model abschließen
+5. Settings entsprechend Userwünschen anpassen 
+6. UserRole-Management implementieren
 
 ### **Termine:**
 Fertigstellung bis Lehrgangsende
