@@ -6,7 +6,7 @@ Floating City
 ## **Projektantrag**
 
 ### **Ausgangslage:**
-Das gesamte Projekt wurde mit der Hilfe von einem maßstabsgetreuen Model realisiert.
+Das gesamte Projekt wurde mittels eines maßstabsgetreuen Models realisiert.
 
 ### **Projektziele:**
 Mit diesem Projekt sollen folgende Ziele erreicht werden:
