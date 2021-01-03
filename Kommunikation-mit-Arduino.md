@@ -1,6 +1,6 @@
 https://www.avrfreaks.net/forum/spi-between-atmega2560-and-atmega128
 
-* Ultrasonic
+* Ultrasonicsensor
 
 * Neigungssensor
 
