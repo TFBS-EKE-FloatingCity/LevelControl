@@ -13,7 +13,7 @@ Mit diesem Projekt sollen folgende Ziele erreicht werden:
 1. Programmieren einer Schnittstelle Raspberry Pi <=> Server
 2. Programmierung der Funktionalitäten des Raspberry Pi/der Arduinos
 3. Web-UI zur Erstellung/Darstellung der Simulations-/Messdaten
-4. Erstellen einer Simulation inklusive Maßstabsmodel
+4. Erstellen einer Simulation inklusive Maßstabsmodell
 5. Userhierarchie für zukünftigen Gebrauch nach Auslieferung
 
 ### **Meilensteine:**
