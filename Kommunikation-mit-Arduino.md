@@ -89,8 +89,6 @@ Die Übertragung vom Arduino sieht dann folgend aus:
 
 Der zugehörige Code um diese Daten zu erzeugen:
 
-
-
 ```
 #define F_CPU	16000000UL //define Clockrate
 
@@ -161,5 +159,3 @@ int main(void)
 	}
 }
 ```
-
-
