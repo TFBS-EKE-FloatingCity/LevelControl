@@ -2,7 +2,7 @@ Das Programm für den Raspberry Pi wurde in NodeJS geschrieben und ist relativ �
 
 Um den Faker zu verwenden muss in der `arduino.js` in der Zeile 4 die `'./comm/Faker'` required werden statt `'./comm/Arduino'`.
 
-Mehr Informationen zur Kommunikation stehen im "Kommunikation" Wiki Eintrag.
+Mehr Informationen, zur Kommunikation, stehen im "Kommunikation" Wiki Eintrag.
 
 Zusätzlich gibt es noch eine kleine Config-Datei:
 
