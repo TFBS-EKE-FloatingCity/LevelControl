@@ -13,4 +13,4 @@ Zusätzlich gibt es noch eine kleine Config-Datei:
 }
 ```
 
-Der Endpoint ist die Schnittstelle bei der Visualisierung (`/api/sensors`) und der `sendInterval` ist der Interval in welchem die Daten an die Visualisierung gesendet werden.
+Der Endpoint ist die Schnittstelle bei der Visualisierung (`/api/sensors`) und der `sendInterval` ist der Interval, in welchem die Daten an die Visualisierung gesendet werden.
