@@ -32,7 +32,7 @@ https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_
 
 User: raspi1
 
-PW: `twayh3ay5x3kv5i6tiwkbrsswepth7674runzbwm23odvoohpcvq`
+Passwort: `twayh3ay5x3kv5i6tiwkbrsswepth7674runzbwm23odvoohpcvq`
 
 
 # Alte Anleitung
@@ -51,6 +51,6 @@ PW: `twayh3ay5x3kv5i6tiwkbrsswepth7674runzbwm23odvoohpcvq`
 
 User: raspi1
 
-PW: twayh3ay5x3kv5i6tiwkbrsswepth7674runzbwm23odvoohpcvq
+Passwort: twayh3ay5x3kv5i6tiwkbrsswepth7674runzbwm23odvoohpcvq
 
 https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
