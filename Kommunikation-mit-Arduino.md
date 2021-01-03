@@ -76,11 +76,8 @@ void SPI_SlaveTransmit(char cData)
 }
 ```
 
-
-
-
 Als Master passiert folgendes:
-Da aber der Raspberry nicht Salve sein kann muss der Arduino der Slave sein
+Da aber der Raspberry nicht Slave sein kann muss der Arduino der Slave sein.
 
 Die Übertragung vom Arduino sieht dann folgend aus:
 ![1 Sensor übertragung.PNG](/.attachments/1%20Sensor%20übertragung-0aa4238c-de5b-4540-a13e-7ae2d773f74a.PNG)
