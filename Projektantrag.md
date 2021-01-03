@@ -28,7 +28,7 @@ Mit diesem Projekt sollen folgende Ziele erreicht werden:
 Fertigstellung bis Lehrgangsende
 
 ### **Kosten:**
-1. Raspberry Pi 4 - 59.50€
+1. Raspberry Pi 4 Model B, 2GB RAM - 59.50€
 
 ### **Sachmittel:**
 1. SQL-Express-Server
