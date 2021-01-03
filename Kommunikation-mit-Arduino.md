@@ -1,13 +1,19 @@
 https://www.avrfreaks.net/forum/spi-between-atmega2560-and-atmega128
 
-Ultrasonic
-Neigungssensor
-Pumpen
-Generatoren
-Windräder
+* Ultrasonic
+
+* Neigungssensor
+
+* Pumpen
+
+* Generatoren
+
+* Windräder
 
 U01
-1 Byte = Identifier -> ersten 3 Bit Type, 5 Bit Nummer (maximal 32 Geräte pro Typ)
+
+1 Byte = Identifier -> Ersten 3 Bit Type, 5 Bit Nummer (maximal 32 Geräte pro Typ)
+
 2 Bytes = Daten
 
 Code für den Arduino als Slave:
