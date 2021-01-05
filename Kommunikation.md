@@ -24,25 +24,25 @@ Diese Daten gibt es 3x (Für jede Sektion einen Datenblock). Sie werden aber in 
 
 # Daten Webserver an Visualisierung
 Die Daten werden wie folgt in einem JSON Array übertragen:
-* CityDataID: int (0 bis 300)
-* USonicInner1: int (0 bis 300)
-* USonicOuter1: int (-100 bis 100)
-* Pump1: int (-100 bis 100)
-* USonicInner2: int (-100 bis 100)
-* USonicOuter2: int (-100 bis 100)
-* Pump2: int (-100 bis 100)
-* USonicInner3: int (-100 bis 100)
-* USonicOuter3: int (-100 bis 100)
-* Pump3: int (-100 bis 100)
-* CreatedAt: int (-100 bis 100)
-* MesurementTime: int (-100 bis 100)
-* SimulationID: int (-100 bis 100)
-* WindMax: int (-100 bis 100)
-* WindCurrent: int (-100 bis 100)
-* SunMax: int (-100 bis 100)
-* SunCurrent: int (-100 bis 100)
-* ConsumptionMax: int (-100 bis 100)
-* ConsumptionCurrent: int (-100 bis 100)
-* SimulationActive: int (-100 bis 100)
-* Simulationtime: int (-100 bis 100)
-* TimeFactor: int (-100 bis 100)
+* CityDataID: 
+* USonicInner1: 
+* USonicOuter1: 
+* Pump1: 
+* USonicInner2: 
+* USonicOuter2: 
+* Pump2: 
+* USonicInner3: 
+* USonicOuter3: 
+* Pump3: 
+* CreatedAt: 
+* MesurementTime: 
+* SimulationID: 
+* WindMax: 
+* WindCurrent: 
+* SunMax: 
+* SunCurrent: 
+* ConsumptionMax: 
+* ConsumptionCurrent: 
+* SimulationActive: 
+* Simulationtime: 
+* TimeFactor: 
