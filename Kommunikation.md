@@ -13,6 +13,9 @@ Der Raspberry Pi kommuniziert über SPI im Interval von 100ms mit dem Arduino. B
 
 # Sensordaten: Raspberry Pi an Webserver
 Die Daten werden wie folgt in einem JSON Array übertragen:
+* uuid: 
+* timestamp: timestamp
+* sector: "One" oder "Two" oder "Three"
 * sensorOutside: int (0 bis 300)
 * sensorInside: int (0 bis 300)
 * pumpLevel: int (-100 bis 100)
