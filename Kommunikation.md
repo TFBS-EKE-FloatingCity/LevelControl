@@ -27,12 +27,17 @@ Zusätzlich wird nach jedem Datensatz, den die REST API vom Raspberry Pi bekommt
 
 # Daten Webserver an Visualisierung
 Die Daten werden wie folgt in einem JSON Array übertragen:
-* CityDataID: int
-* USonicInner1: short
-* USonicOuter1: short
-* Pump1: short
-* USonicInner2: short
-* USonicOuter2: short
+| ID | Bezeichnung | Datenformat |
+|--|--|--|
+| 1 | CityDataID | int |
+| 2 | USonicInner1 | short |
+| 3 | USonicOuter1 | short |
+| 4 | Pump1 | short |
+| 5 | USonicInner2 | short |
+| 6 | USonicOuter2 | short |
+| 6 | USonicOuter2 | short |
+| 6 | USonicOuter2 | short |
+| 6 | USonicOuter2 | short |
 * Pump2: short
 * USonicInner3: short
 * USonicOuter3: short
