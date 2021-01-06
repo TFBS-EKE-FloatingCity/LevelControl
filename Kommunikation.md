@@ -35,22 +35,19 @@ Die Daten werden wie folgt in einem JSON Array übertragen:
 | 4 | Pump1 | short |
 | 5 | USonicInner2 | short |
 | 6 | USonicOuter2 | short |
-| 6 | USonicOuter2 | short |
-| 6 | USonicOuter2 | short |
-| 6 | USonicOuter2 | short |
-* Pump2: short
-* USonicInner3: short
-* USonicOuter3: short
-* Pump3: short
-* CreatedAt: DateTime
-* MesurementTime: DateTime
-* SimulationID: int?
-* WindMax: int?
-* WindCurrent: short?
-* SunMax: int?
-* SunCurrent: short?
-* ConsumptionMax: int?
-* ConsumptionCurrent: short?
-* SimulationActive: bool
-* Simulationtime: DateTime?
-* TimeFactor: decimal?
+| 7 | Pump2 | short |
+| 8 | USonicInner3 | short |
+| 9 | USonicOuter3 | short |
+| 10 | Pump3 | short |
+| 11 | CreatedAt | DateTime |
+| 12 | MesurementTime | DateTime |
+| 13 | SimulationID | int? |
+| 14 | WindMax | int? |
+| 15 | WindCurrent | short? |
+| 16 | SunMax | int? |
+| 17 | SunCurrent | short? |
+| 18 | ConsumptionMax | int? |
+| 19 | ConsumptionCurrent | short? |
+| 20 | SimulationActive | bool |
+| 21 | Simulationtime | DateTime? |
+| 22 | TimeFactor | decimal? |
