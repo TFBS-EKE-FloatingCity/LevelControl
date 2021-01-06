@@ -25,25 +25,25 @@ Zusätzlich wird nach jedem Datensatz, den die REST API vom Raspberry Pi bekommt
 
 # Daten Webserver an Visualisierung
 Die Daten werden wie folgt in einem JSON Array übertragen:
-* CityDataID: 
-* USonicInner1: 
-* USonicOuter1: 
-* Pump1: 
-* USonicInner2: 
-* USonicOuter2: 
-* Pump2: 
-* USonicInner3: 
-* USonicOuter3: 
-* Pump3: 
-* CreatedAt: 
-* MesurementTime: 
-* SimulationID: 
-* WindMax: 
-* WindCurrent: 
-* SunMax: 
-* SunCurrent: 
-* ConsumptionMax: 
-* ConsumptionCurrent: 
-* SimulationActive: 
-* Simulationtime: 
-* TimeFactor: 
+* CityDataID: int
+* USonicInner1: short
+* USonicOuter1: short
+* Pump1: short
+* USonicInner2: short
+* USonicOuter2: short
+* Pump2: short
+* USonicInner3: short
+* USonicOuter3: short
+* Pump3: short
+* CreatedAt: DateTime
+* MesurementTime: DateTime
+* SimulationID: int?
+* WindMax: int?
+* WindCurrent: short?
+* SunMax: int?
+* SunCurrent: short?
+* ConsumptionMax: int?
+* ConsumptionCurrent: short?
+* SimulationActive: bool
+* Simulationtime: DateTime?
+* TimeFactor: decimal?
