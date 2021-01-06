@@ -13,12 +13,14 @@ Der Raspberry Pi kommuniziert über SPI im Interval von 100ms mit dem Arduino. B
 
 # Daten Raspberry Pi an Webserver
 Die Daten werden wie folgt in einem JSON Array übertragen:
-* uuid: string
-* timestamp: timestamp
-* sector: string ("One" oder "Two" oder "Three")
-* sensorOutside: int (0 bis 300)
-* sensorInside: int (0 bis 300)
-* pumpLevel: int (-100 bis 100)
+| ID | Bezeichnung | Datenformat |
+|--|--|--|
+| 1 | uuid | string |
+| 2 | timestamp | timestamp |
+| 3 | sector | string ("One" oder "Two" oder "Three") |
+| 4 | sensorOutside | int (0 bis 300) |
+| 5 | sensorInside | int (0 bis 300) |
+| 6 | pumpLevel | int (-100 bis 100) |
 
 Diese Daten gibt es 3x (Für jede Sektion einen Datenblock). Sie werden aber in einem JSON Array gesammelt verschickt. Weiters gibt es einen zusätzlichen Parameter _"timestamp"_ der vom Datenformat ein TimeStamp ist. Der Parameter wird von der REST API erzeugt. Dieser beinhaltet die Zeit, bei dem die REST API die Daten vom Raspberry Pi bekommen hat. Dieser Parameter wird nur für Auswertungen (z.B. Excelauswertungen) gebraucht, wann und wie oft es zu Unterbrechungen zwischen Raspberry Pi und REST API gekommen ist.
 Zusätzlich wird nach jedem Datensatz, den die REST API vom Raspberry Pi bekommt, eine Bestätigung, für Erhalt des Datensatzes, an den Raspberry Pi zurückgeschickt. Im Falle eines Fehlers oder wenn die REST API nicht antwortet, wird beim nächsten Mal wo Daten vom Raspberry Pi gemessen werden, der vorherige Datensatz nochmals versendet (Also zusätzlich zur neuen Messung) - Dies geht so lange, bis die REST API, die Bestätigung für Erhalt des Datensatzes, wieder zurück an den Raspberry Pi versendet und dieser die Bestätigung auch erhaltet.
