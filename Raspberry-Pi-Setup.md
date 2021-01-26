@@ -13,7 +13,7 @@
 https://www.raspberrypi.org/software/
 
 OS Wahl:
-Raspberry Pi OS (other) => Raspberry Pi OS lite (32-bit) 
+Raspberry Pi OS (other) **=>** Raspberry Pi OS lite (32-bit) 
 
 SD-Card auswählen und schreiben/write drücken
 
