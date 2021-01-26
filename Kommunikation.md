@@ -3,7 +3,9 @@
 2. H.Socket.IO: https://www.nuget.org/packages/H.Socket.IO/1.1.1?_src=template
 
 # Webserver an Raspberry Pi
-Die Kommunikation zwischen dem Raspberry Pi und dem Webserver erfolgt über einen Websocket (Libary: `H.Socket.IO`). Der Raspberry Pi sendet die Daten an den Webserver. Nach dem Erhalt sendet der Webserver, im Body, die aktuellen Simulationsdaten (Wind, Sun, Consumption Delta) zurück an den Raspberry Pi.
+Die Kommunikation zwischen dem Raspberry Pi und dem Webserver erfolgt über einen Websocket (Libary: `H.Socket.IO`). 
+
+Der Raspberry Pi sendet die Daten an den Webserver. Nach dem Erhalt sendet der Webserver, im Body, die aktuellen Simulationsdaten (Wind, Sun, Consumption Delta) zurück an den Raspberry Pi.
 
 Zusätzlich wird nach jedem Datensatz, den die REST API vom Raspberry Pi bekommt, eine Bestätigung, für Erhalt des Datensatzes, an den Raspberry Pi zurückgeschickt. Im Falle eines Fehlers oder wenn die REST API nicht antwortet, wird beim nächsten Mal wo Daten vom Raspberry Pi gemessen werden, der vorherige Datensatz nochmals versendet (Also zusätzlich zur neuen Messung) - Dies geht so lange, bis die REST API, die Bestätigung für Erhalt des Datensatzes, wieder zurück an den Raspberry Pi versendet und dieser die Bestätigung auch erhaltet. 
 
@@ -25,7 +27,9 @@ Die Daten werden wie folgt in einem JSON Array übertragen:
 | 5 | sensorInside | int (0 bis 300) |
 | 6 | pumpLevel | int (-100 bis 100) |
 
-Die Daten, mit der ID 3-6, gibt es 3x (Für jede Sektion einen Datenblock). Sie werden aber in einem JSON Array gesammelt verschickt. Weiters gibt es einen zusätzlichen Parameter _"timestamp"_ der vom Datenformat ein TimeStamp ist. Der Parameter wird von der REST API erzeugt. Dieser beinhaltet die Zeit, bei dem die REST API die Daten vom Raspberry Pi bekommen hat. Dieser Parameter wird nur für Auswertungen (z.B. Excelauswertungen) gebraucht, wann und wie oft es zu Unterbrechungen zwischen Raspberry Pi und REST API gekommen ist.
+Die Daten, mit der ID 3-6, gibt es 3x (Für jede Sektion einen Datenblock). Sie werden aber in einem JSON Array gesammelt verschickt. 
+
+Weiters gibt es einen zusätzlichen Parameter _"timestamp"_ der vom Datenformat ein TimeStamp ist. Der Parameter wird von der REST API erzeugt. Dieser beinhaltet die Zeit, bei dem die REST API die Daten vom Raspberry Pi bekommen hat. Dieser Parameter wird nur für Auswertungen (z.B. Excelauswertungen) gebraucht, wann und wie oft es zu Unterbrechungen zwischen Raspberry Pi und REST API gekommen ist.
 
 Dann werden die Simulations- und Livedaten über den Websocket Server (Libary: `WebSocketSharpFork`) an die verbundenen Clients versendet.
 
