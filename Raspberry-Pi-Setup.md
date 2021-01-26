@@ -1,11 +1,10 @@
 # RaspberryPi einrichten 
 
 1. Raspbian Lite auf SD Card flashen
-2. WLAN, SSH und SPI konfigurieren (`sudo raspi-config` siehe unten)
+2. WLAN, SSH und SPI konfigurieren (`sudo raspi-config` & siehe unten)
 3. Über SSH verbinden (Putty)
 4. Pakete mit `sudo apt update && sudo apt upgrade`
-5. SPI aktivieren (`sudo raspi-config`)
-6. Git installieren (`sudo apt install git`)
+5. Git installieren (`sudo apt install git`)
 
 
 ## Image/Flash Software
