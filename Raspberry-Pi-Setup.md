@@ -110,6 +110,7 @@ git clone https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
 -   Install Node Modules
 
 ```shell
+cd **projectfolder**
 yarn
 ```
 
