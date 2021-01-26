@@ -1,4 +1,4 @@
-# Webserver <=> Raspberry Pi
+# Webserver an Raspberry Pi
 Die Kommunikation zwischen dem Raspberry Pi und dem Webserver erfolgt über einen H.Socket.IO Websocket. Der Raspberry Pi sendet die Daten an den Webserver. Nach dem Erhalt sendet der Webserver, im Body, die aktuellen Simulationsdaten (Wind, Sun, Consumption Delta) zurück an den Raspberry Pi.
 
 # Arduino <=> Raspberry Pi
