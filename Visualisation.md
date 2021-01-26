@@ -21,3 +21,4 @@ Mittels einem `onmessage` Event werden Daten in Form eines `JSON` files abgefang
 
 ## Progressbar
 Die `Progressbar` zeigt an, wie lange eine Simulation schon läuft.
+Mittels einer Funktion, welche alle `1000 Millisekunden` ausgeführt wird, wird die `Progressbar` mithilfe einer `Kalkulation` aktualisiert.
