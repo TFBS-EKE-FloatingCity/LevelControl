@@ -24,7 +24,7 @@ System Options / Wireless LAN
 ## SSH
 Interfacing Options / SSH => Hier bestätigt man die Frage mit "Yes/Ja"
 
-## WLAN
+## SPI
 Interfacing Options / SPI => Hier bestätigt man die Frage mit "Yes/Ja"
 
 
