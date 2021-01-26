@@ -16,6 +16,8 @@ Raspberry Pi OS (other) **=>** Raspberry Pi OS lite (32-bit)
 
 SD-Card auswählen und schreiben/write drücken
 
+## Der erste Start von Raspbian Lite: 
+https://www.dennis-henss.de/2018/03/28/installation-und-konfiguration-raspbian-lite-auf-raspberry-pi-3/
 
 ## WLAN
 System Options / Wireless LAN
