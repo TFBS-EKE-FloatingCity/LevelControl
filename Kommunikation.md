@@ -1,10 +1,7 @@
 # Webserver an Raspberry Pi
 Die Kommunikation zwischen dem Raspberry Pi und dem Webserver erfolgt über einen Websocket (Libary: `H.Socket.IO`). Der Raspberry Pi sendet die Daten an den Webserver. Nach dem Erhalt sendet der Webserver, im Body, die aktuellen Simulationsdaten (Wind, Sun, Consumption Delta) zurück an den Raspberry Pi.
 
-Zusätzlich wird nach jedem Datensatz, den die REST API vom Raspberry Pi bekommt, eine Bestätigung, für Erhalt des Datensatzes, an den Raspberry Pi zurückgeschickt. Im Falle eines Fehlers oder wenn die REST API nicht antwortet, wird beim nächsten Mal wo Daten vom Raspberry Pi gemessen werden, der vorherige Datensatz nochmals versendet (Also zusätzlich zur neuen Messung) - Dies geht so lange, bis die REST API, die Bestätigung für Erhalt des Datensatzes, wieder zurück an den Raspberry Pi versendet und dieser die Bestätigung auch erhaltet.
-
-# Arduino <=> Raspberry Pi
-Der Raspberry Pi kommuniziert über SPI im Interval von 100ms mit dem Arduino. Bei der SPI Kommunikation ist der Raspberry Pi der Master und der Arduino der Slave. Bei der Kommunikation sendet der Raspberry Pi falls vorhanden die aktuellen Simulationsdaten mit. 
+Zusätzlich wird nach jedem Datensatz, den die REST API vom Raspberry Pi bekommt, eine Bestätigung, für Erhalt des Datensatzes, an den Raspberry Pi zurückgeschickt. Im Falle eines Fehlers oder wenn die REST API nicht antwortet, wird beim nächsten Mal wo Daten vom Raspberry Pi gemessen werden, der vorherige Datensatz nochmals versendet (Also zusätzlich zur neuen Messung) - Dies geht so lange, bis die REST API, die Bestätigung für Erhalt des Datensatzes, wieder zurück an den Raspberry Pi versendet und dieser die Bestätigung auch erhaltet. 
 
 # Simulationsdaten
 | ID | Bezeichnung | Datenformat |
