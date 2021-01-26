@@ -1,5 +1,5 @@
 Benötigte NuGet Packages:
-
+- WebSocketSharpFork
 
 
 
@@ -28,7 +28,7 @@ Die Daten werden wie folgt in einem JSON Array übertragen:
 
 Die Daten, mit der ID 3-6, gibt es 3x (Für jede Sektion einen Datenblock). Sie werden aber in einem JSON Array gesammelt verschickt. Weiters gibt es einen zusätzlichen Parameter _"timestamp"_ der vom Datenformat ein TimeStamp ist. Der Parameter wird von der REST API erzeugt. Dieser beinhaltet die Zeit, bei dem die REST API die Daten vom Raspberry Pi bekommen hat. Dieser Parameter wird nur für Auswertungen (z.B. Excelauswertungen) gebraucht, wann und wie oft es zu Unterbrechungen zwischen Raspberry Pi und REST API gekommen ist.
 
-Dann werden die Simulations- und Livedaten über den Websocket Server (Libary: `WebSocketSharp`) an die verbundenen Clients versendet.
+Dann werden die Simulations- und Livedaten über den Websocket Server (Libary: `WebSocketSharpFork`) an die verbundenen Clients versendet.
 
 # Daten Webserver an Visualisierung
 Die Daten werden wie folgt in einem JSON Array übertragen:
