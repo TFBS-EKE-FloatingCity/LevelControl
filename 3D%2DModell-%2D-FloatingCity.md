@@ -54,6 +54,14 @@ Das wird im Skript „3d-model.js“ innerhalb der render() - Funktion gemacht. 
 Die Neigung wird leichter Verständlich, wenn man bedenkt, dass sich alles um die 3 Achsen dreht. Also, wenn die Neigung der Y-Achse sich stets erhöht dreht sich das Modell im Kreis.
 Wenn die Neigung der X-Achse sich verändert wird das Modell nach vorne oder nach hinten gekippt und bei der Y-Achse passiert dasselbe aber seitlich.
 
+##Höhe des 3D-Modells
+Die Höhe des 3D-Modells kann nur über eine Funktion zur bestehenden Höhe erweitert oder verringert werden. Das ist der Grund warum man die momentane Höhe am besten seperat in einer Variable speichert und somit einen Referenzwert hat.
+
+**Höhe:**
+- cube.translateY(WERT)
+
+In der Anwendung würde man so die Höhe anpassen, falls die gewünschte Höhe bekannt wäre:
+- cube.translateY(GEWÜNSCHTE-HÖHE - MOMENTANE-HÖHE)
 
 #Größe der Scene anpassen
 
