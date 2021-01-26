@@ -1,7 +1,7 @@
-# Raspberry Pi einrichten 
+# RaspberryPi einrichten 
 
 1. Raspbian Lite auf SD Card flashen
-2. WLAN und SSH konfigurieren (`sudo raspi-config` siehe unten)
+2. WLAN, SSH und SPI konfigurieren (`sudo raspi-config` siehe unten)
 3. Über SSH verbinden (Putty)
 4. Pakete mit `sudo apt update && sudo apt upgrade`
 5. SPI aktivieren (`sudo raspi-config`)
@@ -18,13 +18,17 @@ Raspberry Pi OS (other) **=>** Raspberry Pi OS lite (32-bit)
 SD-Card auswählen und schreiben/write drücken
 
 
-## SSH
-Zum Aktivieren von SSH folgt man dem Menü-Verlauf "Interfacing Options / SSH". Hier bestätigt man die Frage mit "Yes/Ja"
-
 ## WLAN
 System Options / Wireless LAN
 
-#FloatingCity RaspberryPi(Master) Node Server
+## SSH
+Interfacing Options / SSH => Hier bestätigt man die Frage mit "Yes/Ja"
+
+## WLAN
+Interfacing Options / SPI => Hier bestätigt man die Frage mit "Yes/Ja"
+
+
+#FloatingCity RaspberryPi (Master) Node Server
 
 ### Requirements
 
