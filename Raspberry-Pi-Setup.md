@@ -10,7 +10,7 @@
 # Notizen
 
 ## Image
-https://www.raspberrypi.org/downloads/raspbian/
+https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit (Raspberry Pi OS Lite)
 
 ## SSH
 https://www.raspberrypi.org/documentation/remote-access/ssh/
