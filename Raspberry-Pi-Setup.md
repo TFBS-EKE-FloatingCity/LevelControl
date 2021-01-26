@@ -141,6 +141,6 @@ yarn start
 
 User: raspi1
 
-Passwort (Muss eventuell neu generiert werden (Repos)): znwneoqxc3b5a52uw76ag7t7xqby5pkq5625lrc2t2wwezdqv6uq
+Passwort (Muss eventuell neu generiert werden (Repos => clone => Credentials)): znwneoqxc3b5a52uw76ag7t7xqby5pkq5625lrc2t2wwezdqv6uq
 
 https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
