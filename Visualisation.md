@@ -24,3 +24,6 @@ Die `Progressbar` zeigt an, wie lange eine Simulation schon läuft.
 Mittels einer Funktion, welche alle `1000 Millisekunden` ausgeführt wird, wird die `Progressbar` mithilfe einer `Kalkulation` aktualisiert.
 
 Die `Progressbar` wird als `Partial View` in `Dashboard.cshtml` geladen.
+
+## Simulation Title
+Der `Simulation Title` hat außerhalb einer `Simulation` den Wert `No Simulation started`. Wird eine `Simulation` gestartet, wird der `Titel` mithilfe der `SimScenarioID` in der `Datenbank` abgefragt und im `Dashboard.csthml` in den `Tag <h3>` geladen.
