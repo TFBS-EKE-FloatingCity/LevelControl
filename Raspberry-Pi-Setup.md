@@ -19,7 +19,7 @@ SD-Card auswählen und schreiben/write drücken
 ## Der erste Start von Raspbian Lite: 
 https://www.dennis-henss.de/2018/03/28/installation-und-konfiguration-raspbian-lite-auf-raspberry-pi-3/
 
-Bitte Passwort in z.b. "floatingCity1!"
+Bitte Passwort in z.b. "floatingCity1!" ändern
 
 ## WLAN
 System Options / Wireless LAN
