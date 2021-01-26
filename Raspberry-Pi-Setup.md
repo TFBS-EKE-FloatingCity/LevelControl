@@ -9,8 +9,14 @@
 
 # Notizen
 
-## Image
-https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit (Raspberry Pi OS Lite)
+## Image/Flash Software
+https://www.raspberrypi.org/software/
+
+OS Wahl:
+Raspberry Pi OS (other) => Raspberry Pi OS lite (32-bit) 
+
+SD-Card auswählen und schreiben/write drücken
+
 
 ## SSH
 https://www.raspberrypi.org/documentation/remote-access/ssh/
