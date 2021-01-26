@@ -1,16 +1,11 @@
 # Schritte
 
-1. Raspbian Buster Lite auf SD Card flashen
+1. Raspbian Lite auf SD Card flashen
 2. WLAN und SSH konfigurieren (siehe Links)
 3. Über SSH verbinden (Putty)
 4. Pakete mit `sudo apt update && sudo apt upgrade`
 5. SPI aktivieren (`sudo raspi-config`)
 6. Git installieren (`sudo apt install git`)
-7. NodeJS installieren (siehe Notiz)
-8. Repository clonen (siehe Notiz)
-9. cd Raspberry (die Repository betreten)
-10. Dependencies installieren (`npm install`)
-11. Projekt mit `npm start` starten
 
 # Notizen
 
@@ -23,29 +18,103 @@ https://www.raspberrypi.org/documentation/remote-access/ssh/
 ## WLAN
 https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/
 
-## NodeJS installieren
-`curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -`
-`sudo apt-get install -y nodejs`
+#FloatingCity RaspberryPi(Master) Node Server
 
-## Repository clonen
-`git clone https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry`
+### Requirements
 
-User: raspi1
+-   Node(14.15.1) + NPM/Yarn
+-   Python3
+-   g++
 
-Passwort: `twayh3ay5x3kv5i6tiwkbrsswepth7674runzbwm23odvoohpcvq`
+### Installation (RaspberryPi / Linux)
+
+-   Install NodeJS
+
+```shell
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - sudo apt-get install -y nodejs
+```
+
+-   Install Python
+
+```bash
+ sudo apt-get update  && sudo apt-get install python3
+```
+
+-   Install Build-Essentials (for the c++ compiler)
+
+```bash
+ sudo apt-get update  && sudo apt-get install build-essential
+```
+
+-   Install Yarn (after NodeJS)
+
+```shell
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+
+```shell
+sudo apt update && sudo apt install yarn
+```
 
 
-# Alte Anleitung
+### Installation (Windows)
 
-1. Raspbian Buster Lite geflashed
-2. WLAN Settings hinterlegt (wpa_supplicant.conf & ssh)
-3. SPI aktiviert (raspi-config)
-4. apt Update (Store aktualisieren)
-5. apt-get upgrade (System aktualisieren)
-6. sudo apt install nodejs (Node.js Framework installieren)
-7. sudo apt install git
-8. git clone (Git Repo klonen)
-9. sudo apt install npm (Package Manager)
+
+-   Install NodeJS
+
+
+Install Node-Verion-Manager with setup: https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7
+```shell
+nvm install 14.15.1
+
+nvm use 14.15.1
+```
+
+
+-   Install Yarn
+
+Install: https://classic.yarnpkg.com/en/docs/install/#windows-stable
+<br>
+Restart all Commandline Tools (Including IDE)
+
+
+-   Install Windows Build Tools
+
+Method 1.
+```shell
+yarn global add windows-build-tools
+```
+
+Method 2.
+<br>
+Install C++ Tools in Visual Studio
+
+
+
+### Checkout and run server
+
+-   Clone repository
+
+```shell
+git clone https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
+```
+
+-   Install Node Modules
+
+```shell
+yarn
+```
+
+### Run Server
+
+-   Install Node Modules
+
+```shell
+yarn start
+```
+
+
 
 ###Git Zugangsdaten
 
