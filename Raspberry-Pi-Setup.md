@@ -1,7 +1,7 @@
 # Schritte
 
 1. Raspbian Lite auf SD Card flashen
-2. WLAN und SSH konfigurieren (siehe Links)
+2. WLAN und SSH konfigurieren (`sudo raspi-config` siehe unten)
 3. Über SSH verbinden (Putty)
 4. Pakete mit `sudo apt update && sudo apt upgrade`
 5. SPI aktivieren (`sudo raspi-config`)
@@ -20,10 +20,10 @@ SD-Card auswählen und schreiben/write drücken
 
 
 ## SSH
-https://www.raspberrypi.org/documentation/remote-access/ssh/
+Zum Aktivieren von SSH folgt man dem Menü-Verlauf "Interfacing Options / SSH". Hier bestätigt man die Frage mit "Yes/Ja"
 
 ## WLAN
-https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-pi-wifi-using-wpa_supplicant-conf/
+System Options / Wireless LAN
 
 #FloatingCity RaspberryPi(Master) Node Server
 
