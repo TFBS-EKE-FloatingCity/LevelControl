@@ -25,6 +25,7 @@ https://www.dennis-henss.de/2018/03/28/installation-und-konfiguration-raspbian-l
 - WLAN
 - SSH
 - SPI
+- Reboot nach Einstellungsänderungen
 
 ## WLAN
 System Options / Wireless LAN
