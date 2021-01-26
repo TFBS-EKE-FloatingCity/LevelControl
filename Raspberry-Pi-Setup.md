@@ -50,6 +50,8 @@ Interfacing Options / SPI => Hier bestätigt man die Frage mit "Yes/Ja"
 -   Install NodeJS
 
 ```shell
+
+sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - sudo apt-get install -y nodejs
 ```
 
