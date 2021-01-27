@@ -13,7 +13,7 @@ Der Raspberry Pi sendet die Daten an den Webserver. Nach dem Erhalt sendet der W
 
 Zusätzlich wird nach jedem Datensatz, den die REST API vom Raspberry Pi bekommt, eine Bestätigung, für Erhalt des Datensatzes, an den Raspberry Pi zurückgeschickt. Im Falle eines Fehlers oder wenn die REST API nicht antwortet, wird beim nächsten Mal wo Daten vom Raspberry Pi gemessen werden, der vorherige Datensatz nochmals versendet (Also zusätzlich zur neuen Messung) - Dies geht so lange, bis die REST API, die Bestätigung für Erhalt des Datensatzes, wieder zurück an den Raspberry Pi versendet und dieser die Bestätigung auch erhaltet. 
 
-# Simulationsdaten
+## Simulationsdaten
 | ID | Bezeichnung | Datenformat |
 |--|--|--|
 | 1 | Wind | int (0 bis 100) |
