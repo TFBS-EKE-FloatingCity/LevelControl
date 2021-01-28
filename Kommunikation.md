@@ -1,6 +1,6 @@
 # **Kommunikation**
 
-![PP_Kommunikation.png](/.attachments/PP_Kommunikation-346f217c-1663-4ba1-8bef-2089c411f5c3.png)
+![PP_Kommunikation.png](/.attachments/PP_Kommunikation-c6c5ac79-dbd3-447c-ae0d-25d0640d19f2.png)
 
 [[_TOC_]]
 
