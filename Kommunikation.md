@@ -2,6 +2,8 @@
 
 ![PP_Kommunikation.png](/.attachments/PP_Kommunikation-4149b95c-02c0-428f-8b04-470cdaf26f68.png)
 
+![PP_Kommunikation.png](/.attachments/PP_Kommunikation-346f217c-1663-4ba1-8bef-2089c411f5c3.png)
+
 [[_TOC_]]
 
 #Benötigte NuGet Packages
