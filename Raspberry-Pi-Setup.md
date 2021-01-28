@@ -164,15 +164,17 @@ https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
 
 ``` JSON
 {
-    "endpoint": "http://localhost:1234",
-    "sendInterval": 5000,
-    
     // SPI-Konfiguration
     "spiServiceConfig": {
         // Anzahl der Bytes, die über SPI geschickt werden
         "byteLength": 6,
         // SPI-Taktfrequenz in Hz
         "speedHz": 1000,
+        // SPI-Konfiguration der Sektoren-Mikrocontroller
+        // "name": Sektor-Name (One, Two, Three)
+        // "bus": Der Raspberry hat zwei SPI-Bussysteme, wir verwenden den Buss-1 für die Sektoren,
+        // weil er drei Slave-Selects hat. Bus-0 hat nur zwei Slave-Selects (Treiber-Beschränkung)
+        // "gpio": Slave-Select
         "mcDevices": [
             {
                 "name": "One",
