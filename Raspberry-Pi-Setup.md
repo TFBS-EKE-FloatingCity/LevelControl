@@ -52,8 +52,6 @@ Dann muss der Raspberry-pi neu gestartet werden:
 sudo reboot
 ```
 
-
-
 #FloatingCity RaspberryPi (Master) Node Server
 
 ### Requirements
