@@ -170,7 +170,7 @@ https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
         "byteLength": 6,
         // SPI-Taktfrequenz in Hz
         "speedHz": 1000,
-        // SPI-Konfiguration der Sektoren-Mikrocontroller
+        // SPI-Konfiguration der drei Sektoren-Mikrocontroller
         // "name": Sektor-Name (One, Two, Three)
         // "bus": Der Raspberry hat zwei SPI-Bussysteme, wir verwenden den Buss-1 für die Sektoren,
         // weil er drei Slave-Selects hat. Bus-0 hat nur zwei Slave-Selects (Treiber-Beschränkung)
@@ -194,6 +194,7 @@ https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
                 "gpio": 2
             }
         ],
+        // SPI-Konfiguration des Beleuchtung-Mikrocontrollers
         "ambientDevice": {
             "name": "Ambient",
             "bus": 0,
@@ -201,6 +202,7 @@ https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
         }
     },
     "mainServiceConf": {
+     // Die Zeit, nach der der Raspberry Daten von den Mikrocontrollern anfordert
         "arduinoDelay": 1000
     },
     "sensorConfig": {
