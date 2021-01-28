@@ -1,5 +1,7 @@
 # **Kommunikation**
 
+![PP_Kommunikation.png](/.attachments/PP_Kommunikation-4149b95c-02c0-428f-8b04-470cdaf26f68.png)
+
 [[_TOC_]]
 
 #Benötigte NuGet Packages
