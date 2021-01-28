@@ -159,3 +159,58 @@ User: raspi1
 Passwort (Muss eventuell neu generiert werden (Repos => clone => Credentials)): znwneoqxc3b5a52uw76ag7t7xqby5pkq5625lrc2t2wwezdqv6uq
 
 https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
+
+###Konfiguration 
+
+``` JSON
+{
+    "endpoint": "http://localhost:1234",
+    "sendInterval": 5000,
+    
+    // SPI-Konfiguration
+    "spiServiceConfig": {
+        // Anzahl der Bytes, die über SPI geschickt werden
+        "byteLength": 6,
+        // SPI-Taktfrequenz in Hz
+        "speedHz": 1000,
+        "mcDevices": [
+            {
+                "name": "One",
+                "bus": 1,
+                "gpio": 0
+            },
+            {
+                "name": "Two",
+                "bus": 1,
+                "gpio": 1
+            },
+            {
+                "name": "Three",
+                "bus": 1,
+                "gpio": 2
+            }
+        ],
+        "ambientDevice": {
+            "name": "Ambient",
+            "bus": 0,
+            "gpio": 0
+        }
+    },
+    "mainServiceConf": {
+        "arduinoDelay": 1000
+    },
+    "sensorConfig": {
+        "minimumMargin": 3,
+        "fullSpeedMargin": 20,
+        "outerBounds": {
+            "min": 30,
+            "max": 250
+        },
+        "innerBounds": {
+            "min": 30,
+            "max": 200
+        }
+    }
+}
+
+```
