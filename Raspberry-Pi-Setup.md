@@ -176,7 +176,7 @@ https://bSdSchule@dev.azure.com/bSdSchule/FloatingCity/_git/Raspberry
         // weil er drei Slave-Selects hat. Bus-0 hat nur zwei Slave-Selects (Treiber-Beschränkung)
         // "gpio": Slave-Select-Pin, fangt immer bei 0 an.
         // gpio des Buss-1: 0 - 1 - 2
-        // gpio des Buss-1: 0 - 1 
+        // gpio des Buss-0: 0 - 1 
         "mcDevices": [
             {
                 "name": "One",
