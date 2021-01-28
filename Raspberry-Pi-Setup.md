@@ -35,6 +35,7 @@ Interfacing Options / SSH => Hier bestätigt man die Frage mit "Yes/Ja"
 
 ## SPI
 Interfacing Options / SPI => Hier bestätigt man die Frage mit "Yes/Ja"
+
 Spi1 aktivieren:
 
 ``` shell
