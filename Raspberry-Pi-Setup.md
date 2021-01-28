@@ -36,7 +36,7 @@ Interfacing Options / SSH => Hier bestätigt man die Frage mit "Yes/Ja"
 ## SPI
 Interfacing Options / SPI => Hier bestätigt man die Frage mit "Yes/Ja"
 
-Spi1 aktivieren:
+SPI1 aktivieren:
 
 ``` shell
 sudo nano /boot/config.txt
