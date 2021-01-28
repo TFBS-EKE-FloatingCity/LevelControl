@@ -40,9 +40,16 @@ Spi1 aktivieren:
 ``` shell
 sudo nano /boot/config.txt
 ```
+am Ende der Datei muss diese Zeile hinzugefügt werden:
 
+``` shell
+dtparam=spi=on
+```
+Dann muss der Raspberry-pi neu gestartet werden:
 
-am E dtparam=spi=on
+``` shell
+sudo reboot
+```
 
 
 
