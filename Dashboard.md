@@ -1,6 +1,13 @@
 # Dashboard
 Am `Dashboard` werden alle Daten bezüglich der Stadt und auch das 3D-Modell visuell dargestellt.
 
+## Simulation starten
+Um eine Simulation zu starten, drückt man folgenden `Button`:
+
+![image.png](/.attachments/image-33e1e23e-13bf-4c09-9b9d-77378ce5f2c9.png)
+
+Anschließend muss ausgewählt werden, wie lange die `Simulation` dauern soll und welche `Simulation` gestartet werden soll (Simulation muss davor angelegt werden).
+
 ## Titel
 Am Seitenanfang wird, wenn in einer Simulation, der `Simulationstitel` angezeigt.
 ![image.png](/.attachments/image-259ae742-87b8-405e-922e-7536eec7b674.png)
