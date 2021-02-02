@@ -55,7 +55,7 @@ Anhand eines `Windrades` sieht man, ob im Moment `Energie` mithilfe vom Wind, er
 ![image.png](/.attachments/image-8c43f827-63a3-4a7a-af0d-ba92dfd27cd3.png)
 
 ## Höhe in Meter
-Hier wird dargestellt, in welchem `Winkel` sich gerade die `Achsen` der Stadt befinden.
+Hier sieht man die `Höhe` der Stadt über dem Meeres Spiegel an 3 Punkten.
 
 ![image.png](/.attachments/image-b4be0048-a34f-4401-8424-c430d14490d5.png)
 
