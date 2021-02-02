@@ -47,4 +47,8 @@ Der `Simulation Title` hat außerhalb einer `Simulation` den Wert `No Simulation
 ## Aktualisieren des 3D-Modells
 Um das 3D-Modell entsprechend zu neigen und in Höhe anzupassen brauchen wir Formeln um die Neigungen in Radianten anzugeben. Dabei ist zu beachten, dass wir von einem gleichschenkligem Dreieck ausgehen, dass auf das Objekt gelegt wird. Die Sensoren sind jeweils an den 3 Ecken angebracht. Die 3 Sensoren/Ecken werden folgend mit A, B und C bezeichnet.
 
-
+**Neigung**
+1. B > A: $y_{z}=(-1)*tan^{-1} (\frac{(A_{B} - A_{A})}{a})$
+1. A > B: B > A:$y_{z}=tan^{-1} (\frac{(A_{A} - A_{B})}{a})$
+1. A > C: $y_{x}=(-1)*tan^{-1} (\frac{(A_{A} - A_{C})}{a})$
+1. C > A: B > A:$y_{x}=tan^{-1} (\frac{(A_{C} - A_{A})}{a})$
