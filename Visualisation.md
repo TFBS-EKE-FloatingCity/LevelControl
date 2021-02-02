@@ -1,6 +1,22 @@
 # Visualisation.js
-Kurz das File grob erklären.........
-Globals = json + cubeRotationZ, cubeRotationX, EnergyConsumptionVal.. wsDate????
+Im `Visualisation.js` file wird das `Dashboard.csthml` gehandeld. Hier werden Daten vom `Websocket` abgefangen und gespeichert.
+
+## Globals
+| Bezeichnung| Datenformat|
+|--|--|
+| wsData| ?  |
+| cubeRotationZ | Decimal  |
+| cubeRotationX | Decimal  |
+| heightA | Decimal  |
+| heightB | Decimal  |
+| heightC | Decimal  |
+| heightHY | Decimal  |
+| cityDataHeadID | int (mind. 0) |
+| simulationID | int (mind. 0)  |
+| simulationStartTime | Datetime  |
+| simulationEndTime | DateTime  |
+| EnergyConsumptionComparisonVal | int  |
+
 ## Websocket
 Mittels einem `onmessage` Event werden Daten in Form eines `JSON` files abgefangen und in globale Variablen gespeichert.
 ###CityData.json
