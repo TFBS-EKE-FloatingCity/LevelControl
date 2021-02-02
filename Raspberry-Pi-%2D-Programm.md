@@ -37,7 +37,9 @@
             "name": "Ambient",
             "bus": 0,
             "gpio": 0
-        }
+        },
+        // Experimentaler Testmodus in dem die Plattform Simuliert wird  
+        "fakeSpiMode": true
     },
     "mainServiceConf": {
      // Die Zeit, nach der der Raspberry Daten von den Mikrocontrollern anfordert
