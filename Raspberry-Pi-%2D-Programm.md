@@ -70,3 +70,17 @@
 ![image.png](/.attachments/image-b0040d62-03c8-463b-bcf3-2a9677435e2c.png)
 
 ![image.png](/.attachments/image-b6cb6b74-d250-435c-a491-7b8471b85141.png)
+
+# Ablauf
+### Allgemeines 
+
+Die App funktioniert mit dem Takt, der in der Config-Datei definiert ist (mainServiceConf.arduinoDelay).
+Wir verwenden BehaviorSubjects für State-Management und haben zwei Subjects:
+- **SimDataSubject**: hier werden die aktuellen Simulationsdaten gespeichert.
+- **ModulesSubject**: hier werden die aktuellen Messungen der Sektoren gespeichert.
+
+### Eingangspunkt
+Der Main-Service ist der Eingangspunkt der App und verwalltet die gesamte Kommunikation. 
+
+### Ein Takt
+Zuerst werden die Daten der letzten Messung analysiert und es wird festgestellt, ob die Lage der Stadt angepasst werden muss 
