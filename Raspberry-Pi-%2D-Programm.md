@@ -83,4 +83,4 @@ Wir verwenden BehaviorSubjects für State-Management und haben zwei Subjects:
 Der Main-Service ist der Eingangspunkt der App und verwalltet die gesamte Kommunikation. 
 
 ### Ein Takt
-Zuerst werden die Daten der letzten Messung analysiert und es wird festgestellt, ob die Lage der Stadt angepasst werden muss 
+Zuerst werden die Daten der letzten Messung von dem Trim-Service analysiert und bei Bedarf angepasst, um die Lage der Stadt auszugleichen. Die angepasste Daten werden dann an die Sektoren gesendet und gleichzeitig werden die neuen Messungen gelesen und im ModulesSubject gespeichert.
