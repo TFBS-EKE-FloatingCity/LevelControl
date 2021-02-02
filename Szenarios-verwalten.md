@@ -21,7 +21,7 @@
 
 
 \
-4. Hat man seine Szenario erstellt, landet man wieder in der Übersicht aller Szenarien. Um sein erstelltes Szenario zu bearbeiten, klickt man rechts neben dem Szenario auf **_"Szenario Overview"_**. Anschließend gelangt man in eine Detail Ansicht des Szenarios.
+4. Hat man sein Szenario erstellt, landet man wieder in der Übersicht aller Szenarien. Um sein erstelltes Szenario zu bearbeiten, klickt man rechts neben dem Szenario auf **_"Szenario Overview"_**. Anschließend gelangt man in eine Detail Ansicht des Szenarios.
 
 \
 ![scenario index.PNG](/.attachments/scenario%20index-6e10489a-15b6-4b34-b060-2160a9b99c95.PNG)
