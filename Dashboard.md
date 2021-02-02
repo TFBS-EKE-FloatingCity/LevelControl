@@ -64,5 +64,4 @@ Anhand folgendem `Diagramm` sieht man den Unterschied zwischen **Verbrauch** und
 
 ![image.png](/.attachments/image-f2a7374d-b0b8-4e40-82d6-f4520dc07b91.png)
 
-**Blau** ist die `erzeugte Energie` und **Rot** die `verbrauchte`.
-Die **X**-Achse dient hier für die `Kilowatt per Stunde`.
+**Blau** ist die `erzeugte Energie` und **Rot** die `verbrauchte`. Die **X**-Achse dient hier für die `Kilowatt per Stunde`.
