@@ -67,3 +67,8 @@ Anhand folgendem `Diagramm` sieht man den Unterschied zwischen **Verbrauch** und
 **Blau** ist die `erzeugte Energie` und **Rot** die `verbrauchte`. 
 
 Die **X**-Achse dient hier für die `Kilowatt per Stunde`.
+
+## Energie Bilanz
+Anhand der `Energie-Bilanz` sieht man, ob "overall" mehr Energie **erzeugt** oder **verbraucht** wurde.
+
+![image.png](/.attachments/image-828b0332-ae02-44b4-b5d0-e24840f060c3.png)
