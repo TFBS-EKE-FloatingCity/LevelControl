@@ -49,6 +49,6 @@ Um das 3D-Modell entsprechend zu neigen und in Höhe anzupassen brauchen wir For
 
 **Neigung**
 1. B > A: $y_{z}=(-1)*tan^{-1} (\frac{(A_{B} - A_{A})}{a})$
-1. A > B: B > A:$y_{z}=tan^{-1} (\frac{(A_{A} - A_{B})}{a})$
+1. A > B: $y_{z}=tan^{-1} (\frac{(A_{A} - A_{B})}{a})$
 1. A > C: $y_{x}=(-1)*tan^{-1} (\frac{(A_{A} - A_{C})}{a})$
-1. C > A: B > A:$y_{x}=tan^{-1} (\frac{(A_{C} - A_{A})}{a})$
+1. C > A: $y_{x}=tan^{-1} (\frac{(A_{C} - A_{A})}{a})$
