@@ -45,3 +45,6 @@ Die `Progressbar` wird als `Partial View` in `Dashboard.cshtml` geladen.
 Der `Simulation Title` hat außerhalb einer `Simulation` den Wert `No Simulation started`. Wird eine `Simulation` gestartet, wird der `Titel` mithilfe der `SimScenarioID` in der `Datenbank` abgefragt und im `Dashboard.csthml` in den `Tag <h3>` geladen.
 
 ## Aktualisieren des 3D-Modells
+Um das 3D-Modell entsprechend zu neigen und in Höhe anzupassen brauchen wir Formeln um die Neigungen in Radianten anzugeben. Dabei ist zu beachten, dass wir von einem gleichschenkligem Dreieck ausgehen, dass auf das Objekt gelegt wird. Die Sensoren sind jeweils an den 3 Ecken angebracht. Die 3 Sensoren/Ecken werden folgend mit A, B und C bezeichnet.
+
+
