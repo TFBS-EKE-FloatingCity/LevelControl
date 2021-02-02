@@ -50,7 +50,7 @@ In diesem `Diagramm` sieht man anhand Daten, wann die Stadt wie hoch war.
 Die **X**-Achse dient hier für die `Höhe` und die **Y**-Achse für die `Zeitstempel`.
 
 ## Wind
-Anhand eines `Windrades` sieht man, ob im Moment `Energie` mithilfe vom Wind, erzeugt wird.
+Anhand eines `Windrades` sieht man, ob im Moment `Energie` mithilfe vom Wind erzeugt wird.
 
 ![image.png](/.attachments/image-8c43f827-63a3-4a7a-af0d-ba92dfd27cd3.png)
 
