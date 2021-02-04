@@ -41,6 +41,12 @@
         // Experimentaler Testmodus in dem die Plattform Simuliert wird  
         "fakeSpiMode": false
     },
+    "socketServerConfig": {
+        // Gibt an ab wie vielen Messages für die Webserver die Queue geleert wird
+        "maxMessagesInQueue": 10,
+        // Gibt an wie viel Zeit vergehen ohne neue Sim-data vergehen muss bis die Sim-Data auf resettet wird
+        "simulationTimeout": 5000
+    },
     "mainServiceConf": {
      // Die Zeit, nach der der Raspberry Daten von den Mikrocontrollern anfordert
         "arduinoDelay": 1000
