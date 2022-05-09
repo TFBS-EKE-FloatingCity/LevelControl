@@ -52,7 +52,7 @@ Dann muss der Raspberry-pi neu gestartet werden:
 sudo reboot
 ```
 
-#FloatingCity RaspberryPi (Master) Node Server
+# FloatingCity RaspberryPi (Master) Node Server
 
 ### Requirements
 
@@ -152,7 +152,7 @@ yarn start
 
 
 
-###Git Zugangsdaten
+### Git Zugangsdaten
 
 User: raspi1
 
