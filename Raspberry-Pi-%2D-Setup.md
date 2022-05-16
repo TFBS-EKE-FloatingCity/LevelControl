@@ -44,8 +44,16 @@ sudo nano /boot/config.txt
 am Ende der Datei muss diese Zeile hinzugefügt werden:
 
 ``` shell
-dtparam=spi=on
+dtoverlay=spi1-3cs
 ```
+
+Um alle aktivierten interfaces anzuzeigen:
+
+``` shell
+> ls /dev/*spi*
+/dev/spidev0.0 /dev/spidev0.1 /dev/spidev1.0 / dev/spidev1.1 /dev/spidev1.2
+```
+
 Dann muss der Raspberry-pi neu gestartet werden:
 
 ``` shell
@@ -65,7 +73,6 @@ sudo reboot
 -   Install NodeJS
 
 ```shell
-
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - && sudo apt-get install -y nodejs
 ```
 
