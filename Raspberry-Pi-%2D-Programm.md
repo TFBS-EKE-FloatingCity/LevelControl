@@ -1,4 +1,4 @@
-#Config-Datei
+# Config-Datei
 
 ``` JSON
 {
