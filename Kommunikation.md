@@ -65,3 +65,14 @@ Die Daten werden wie folgt in einem JSON Array übertragen:
 | 20 | SimulationActive | bool |
 | 21 | Simulationtime | DateTime? |
 | 22 | TimeFactor | decimal? |
+
+# VisualizationWeb RaspberryPi 'Connection String':
+
+Für die Kommunikation zwischen Webserver und Raspberry ist ein Connectionstring gefordert:
+
+ -> {Protokoll}://{Raspberry Address}:{Port}
+ => ws://192.168.1.1:8080
+ 
+ Protokoll: 
+ * WS => WebSockets
+ * WSS => WebSockets Secure (http to https Equivalent)
