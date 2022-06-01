@@ -92,3 +92,11 @@ Der Main-Service ist der Eingangspunkt der App und verwalltet die gesamte Kommun
 
 ### Ein Takt
 Zuerst werden die Daten der letzten Messung von dem Trim-Service analysiert und bei Bedarf angepasst, um die Lage der Stadt auszugleichen. Die angepasste Daten werden dann an die Sektoren gesendet und gleichzeitig (Duplex) werden die neuen Messungen gelesen und im ModulesSubject gespeichert. Der Socket-Service hört auf Änderungen des ModulesSubjects zu und schickt dem Windows-Server die neuen Daten zu. Der Socket-Service liefert die aktuellen Simulationsdaten und schreibt diese in das SimDataSubject. Es wird auf Änderungen des SimDataSubjects reagiert und  die Sonne-Daten an den Beleuchtung-Controller übertragt.
+
+# Datenreichweite
+## Pump & Generator
+von -100 bis -1 => Pump Aktiv / Generator Inaktiv
+
+von 1 bis 100 => Pump Inaktiv / Generator Aktiv
+
+0 => Pump Inaktiv / Generator Inaktiv
